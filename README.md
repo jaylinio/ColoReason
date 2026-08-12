@@ -18,10 +18,6 @@ environments, compiled wheels, logs, caches, and vendored third-party source tre
 This repository does not ship any datasets. The colorectal EHR datasets used in this work will be made available upon
 reasonable request after the accompanying paper is accepted, under an appropriate data-use agreement.
 
-To keep this repository safe to share, please do not commit clinical data, raw inputs, preprocessed artifacts, predictions,
-checkpoints, or any patient-level content; pass them to the scripts through explicit arguments or environment variables
-instead.
-
 ## Environment boundary
 
 The repository does not pin or bundle a Python/CUDA environment. Install compatible versions of Python, PyTorch,
