@@ -1,0 +1,33 @@
+# Private clinical data and derived artifacts
+rawdata/
+preprocessed/inhouse/
+preprocessed/ehrcon/
+*.jsonl
+!train/RL/coloreason_rl/data/smoke.jsonl
+
+# Models, adapters, checkpoints, and experiment outputs
+models/
+checkpoints/
+outputs/
+logs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Environments and compiled artifacts
+.venv/
+venv/
+conda-env/
+*.whl
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local metadata and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+__MACOSX/

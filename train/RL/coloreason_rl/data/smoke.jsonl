@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"Return only a JSON object with diagnosis and tnm. The patient has colorectal adenocarcinoma, T2N0M0."}],"solution":{"diagnosis":"colorectal adenocarcinoma","tnm":"T2N0M0"},"schema_id":"smoke_v1","curriculum_stage":"stage1_tnm"}
+{"messages":[{"role":"user","content":"Return only a JSON object with diagnosis and tnm. The diagnosis is rectal adenocarcinoma; staging evidence is incomplete."}],"solution":{"diagnosis":"rectal adenocarcinoma","tnm":"unknown"},"schema_id":"smoke_v1","curriculum_stage":"stage1_tnm"}

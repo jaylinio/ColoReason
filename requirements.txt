@@ -1,0 +1,8 @@
+# Core reward/evaluation dependencies. Pin exact versions in the execution environment as needed.
+fuzzywuzzy
+jsonschema
+transformers
+torch
+
+# GRPO runtime dependencies are intentionally external and hardware-specific:
+# ms-swift, vllm, trl, deepspeed, flash-attn

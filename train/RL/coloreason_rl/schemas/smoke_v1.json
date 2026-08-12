@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "smoke_v1",
+  "type": "object",
+  "required": ["diagnosis", "tnm"],
+  "properties": {
+    "diagnosis": {"type": "string"},
+    "tnm": {"type": "string", "enum": ["T1N0M0", "T2N0M0", "unknown"]}
+  },
+  "additionalProperties": false
+}
