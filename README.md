@@ -13,11 +13,14 @@ environments, compiled wheels, logs, caches, and vendored third-party source tre
 - `preprocessed/scripts/`: utilities that transform private raw data into private derived artifacts.
 - `train/RL/coloreason_rl/`: composite reward, schemas, GRPO launch scripts, and unit tests.
 
-## Data boundary
+## Data availability
 
-No dataset is distributed with this repository. Clinical data must remain in an access-controlled environment and must be
-passed to scripts through explicit command-line arguments or environment variables. Do not add `rawdata/`, `preprocessed/`
-data artifacts, predictions, checkpoints, or patient-level examples to Git.
+This repository does not ship any datasets. The colorectal EHR datasets used in this work will be made available upon
+reasonable request after the accompanying paper is accepted, under an appropriate data-use agreement.
+
+To keep this repository safe to share, please do not commit clinical data, raw inputs, preprocessed artifacts, predictions,
+checkpoints, or any patient-level content; pass them to the scripts through explicit arguments or environment variables
+instead.
 
 ## Environment boundary
 
