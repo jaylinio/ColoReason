@@ -15,8 +15,9 @@ environments, compiled wheels, logs, caches, and vendored third-party source tre
 
 ## Data availability
 
-This repository does not ship any datasets. The colorectal EHR datasets used in this work will be made available upon
-reasonable request after the accompanying paper is accepted, under an appropriate data-use agreement.
+This repository does not ship any datasets or trained model artifacts. The colorectal EHR datasets and trained model
+checkpoints used in this work are available by email request to the corresponding authors, subject to institutional
+approval and an appropriate data-use agreement.
 
 ## Environment boundary
 
